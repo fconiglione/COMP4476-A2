@@ -40,10 +40,12 @@ def convert_from_binary(binary_message):
             raise ValueError(f"Binary chunk '{chunk}' does not map to any character.")
     return output
 
-message = "This is a test message."
-encoded = convert_to_binary(message)
-decoded = convert_from_binary(encoded)
+if __name__ == "__main__":
 
-print(f"Original Message: {message.upper()}")
-print(f"Binary Message: {encoded}")
-print(f"Decoded Message: {decoded}")
+    message = "This is a test message."
+    encoded = convert_to_binary(message)
+    decoded = convert_from_binary(encoded)
+
+    print(f"Original Message: {message.upper()}")
+    print(f"Binary Message: {encoded}")
+    print(f"Decoded Message: {decoded}")
