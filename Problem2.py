@@ -1,3 +1,9 @@
+"""
+COMP4476 - Introduction to Cryptography
+Francesco Coniglione (1206780)
+Assignment 2 - Problem 2
+"""
+
 from Problem1a import convert_from_binary
 from Problem1b import function_f, x_or
 
