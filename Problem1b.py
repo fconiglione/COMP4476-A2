@@ -51,4 +51,6 @@ if __name__ == "__main__":
     plaintext_8bit = "10110101"
     key_12bit = "110011001100"
     result = function_f(plaintext_8bit, key_12bit)
+    print("Plaintext (8-bit):", plaintext_8bit)
+    print("Key (12-bit):     ", key_12bit)
     print(f"Result: {result}")

@@ -23,4 +23,6 @@ def get_ciphertext():
 # Putting it altogether to test the function
 if __name__ == "__main__":
 	result = get_ciphertext()
+	print("Plaintext: ", "how do you like computer science")
+	print("Key: ", "101101010010100101101011")
 	print(result)

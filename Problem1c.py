@@ -49,4 +49,5 @@ def function_ek(message, key):
 # Testing the function_ek
 if __name__ == "__main__":
     test_key = "101111010101110011001100"
+    print("Test Key: ", test_key)
     print(function_ek("This is a test message.", test_key))
